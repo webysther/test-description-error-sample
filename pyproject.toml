@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "sample"
+version = "1.0.0"
+description = 'README.md'
+authors = []
+
+[tool.poetry.dependencies]
+python = "~3.6"
+"aws-cdk.core" = "*"
+"aws-cdk.aws_iam" = "*"
+"aws-cdk.aws_sqs" = "*"
+"aws-cdk.aws_sns" = "*"
+"aws-cdk.aws-sns-subscriptions" = "*"
+"aws-cdk.aws_s3" = "*"

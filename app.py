@@ -6,6 +6,11 @@ from test.test_stack import TestStack
 
 
 app = core.App()
-TestStack(app, "test", env={'region': 'us-west-2'})
+TestStack(
+	app, 
+	"test", 
+	env={'region': 'us-east-1'},
+	description="maçã"
+)
 
 app.synth()
