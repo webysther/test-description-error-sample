@@ -17,8 +17,8 @@ Running this sample:
 ```
 $ poetry shell
 $ poetry install
-$ cdk test deploy
-$ cdk diff deploy
+$ cdk deploy test
+$ cdk diff
 ```
 
 Result error:
